@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+    <!--Bootstrap Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <!--CSS stylesheet-->
+    <link rel="stylesheet" href="./styles/main.css" type="text/css">
+    <!--jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Alexa Isaks</title>
+</head>
+
+<body>
+
+    <!--Page header-->
+    <header class="min-vh-100 bg-white header">
+
+        <!--Mobile/hamburger menu icon-->
+        <div class="hamburger d-lg-none header__hamburger">
+            <span class="hamburger__bar"></span>
+            <span class="hamburger__bar hamburger__bar-middle"></span>
+            <span class="hamburger__bar"></span>
+        </div>
+        <!-- END Mobile/hamburger menu icon-->
+
+        <div class="min-vh-100 header__inner-container">
+
+            <div class="mx-auto mb-5 header__image-container">
+                <img src="./images/Alexa-Isaks.svg" alt="Alexa Isaks" class="w-100 h-auto">
+            </div>
+
+            <h1 class="mb-3 mb-lg-5 fs-6 text-uppercase text-center text-charcoal">Frontend Developer</h1>
+
+            <!--Page navigation-->
+            <nav class="navbar align-items-lg-start p-0 header__navbar">
+                <ul class="navbar-nav w-100">
+                    <li class="nav-item navbar__nav-item">
+                        <a href="#about-me" 
+                            class="nav-link d-flex flex-lg-column justify-content-start justify-content-lg-center align-items-center navbar__nav-link">
+                            <i class="bi bi-person me-2 me-lg-0 navbar__icon is-active-link"></i>
+                            <span class="pt-1 pt-lg-0 text-charcoal navbar__title">About me</span>
+                        </a>
+                    </li>
+                    <li class="nav-item navbar__nav-item">
+                        <a href="#skills" 
+                            class="nav-link d-flex flex-lg-column justify-content-start justify-content-lg-center align-items-center navbar__nav-link">
+                            <i class="bi bi-pencil me-2 me-lg-0 navbar__icon"></i>
+                            <span class="pt-1 pt-lg-0 text-charcoal navbar__title">Skills</span>
+                        </a>
+                    </li>
+                    <li class="nav-item navbar__nav-item">
+                        <a href="#experience" 
+                            class="nav-link d-flex flex-lg-column justify-content-start justify-content-lg-center align-items-center navbar__nav-link">
+                            <i class="bi bi-briefcase me-2 me-lg-0 navbar__icon"></i>
+                            <span class="pt-1 pt-lg-0 text-charcoal navbar__title">Experience</span>
+                        </a>
+                    </li>
+                    <li class="nav-item navbar__nav-item">
+                        <a href="#education" 
+                            class="nav-link d-flex flex-lg-column justify-content-start justify-content-lg-center align-items-center navbar__nav-link">
+                            <i class="bi bi-book me-2 me-lg-0 navbar__icon"></i>
+                            <span class="pt-1 pt-lg-0 text-charcoal navbar__title">Education</span>
+                        </a>
+                    </li>
+                    <li class="nav-item navbar__nav-item">
+                        <a href="#contact"  
+                            class="nav-link d-flex flex-lg-column justify-content-start justify-content-lg-center align-items-center navbar__nav-link">
+                            <i class="bi bi-envelope me-2 me-lg-0 navbar__icon navbar__contact-icon"></i>
+                            <span class="pt-1 pt-lg-0 text-charcoal navbar__title">Contact</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- END Page navigation-->
+
+            <div class="d-flex justify-content-center p-2">
+                <!--GitHub link-->
+                <a href="https://github.com/AlexaIsaks" target="_blank" rel="noopener noreferrer"
+                    class="d-flex justify-content-center align-items-center me-5 border border-grey-2 rounded-circle header__social-link"><i
+                        class="bi bi-github"></i></a>
+                <!--Contact link-->
+                <a href="#contact" 
+                    class="d-flex justify-content-center align-items-center border border-grey-2 rounded-circle header__social-link header__contact-link"><i
+                        class="bi bi-envelope"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <!--Main page-->
+    <main class="bg-charcoal main">
+
+        <!--About me section-->
+        <section id="about-me" class="min-vh-100 is-active-section">
+            <div class="mx-auto main__section-inner main__section-inner--width-80">
+                <header>
+                    <h2 class="mb-7 font-family-playflair text-white-1 display-7">About me</h2>
+                </header>
+
+                <!--About me description-->
+                <h3 class="mb-5 text-white-1 h6 fst-italic lh-base">Once upon a time there was a food microbiologist,
+                    named
+                    Alexa, who fell in love with coding...</h3>
+
+                <div
+                    class="d-flex flex-column flex-md-row justify-content-center align-items-center align-items-md-start">
+                    <div class="mb-3 mb-md-0">
+                        <!--About me image-->
+                        <img src="images/profile.jpg" alt="Alexa Isaks profile" class="img-fluid">
+                        <!--END About me image-->
+                    </div>
+                    <div class="order-md-first pe-md-2 text-grey-3 fs-7">
+                        <p>I am completing my Certified Full Stack Web and Software Engineer course and have gained
+                            knowledge in HTML, CSS, JavaScript, SASS and jQuery.</p>
+                        <p>My goal is to produce work that gives the best web performance and user experience, while
+                            following the best coding practices.</p>
+                    </div>
+                </div>
+                <!--END About me description-->
+            </div>
+        </section>
+
+        <!--Skills section-->
+        <section id="skills" class="min-vh-100">
+            <div class="mx-auto main__section-inner main__section-inner--width-75">
+                <header>
+                    <h2 class="mb-7 font-family-playflair text-white-1 display-7">Skills</h2>
+                </header>
+
+                <!--List of skills-->
+                <ul class="text-grey-3 fs-7">
+                    <li>HTML5, CSS, JavaScript, SASS, Bootstrap, jQuery.</li>
+                    <li>Attention to detail.</li>
+                    <li>Research, analytical skills, problem-solving and scientific report writing.</li>
+                    <li>Work independently and in a team.</li>
+                    <li>Self-motivated, learner, dependability, strong work ethic and integrity.</li>
+                </ul>
+                <!-- END List of skills-->
+            </div>
+        </section>
+
+        <!--Experience section-->
+        <section id="experience" class="min-vh-100">
+            <div class="mx-auto main__section-inner main__section-inner--width-80">
+                <header>
+                    <h2 class="mb-7 font-family-playflair text-white-1 display-7">Experience</h2>
+                </header>
+
+                <!---Job timeline-->
+                <div class="timeline">
+                    <!--Job 1-->
+                    <div class="row px-2 py-3 timeline__marker">
+                        <div class="col-12 col-md-4 mb-3 mb-md-0 text-grey-3 fs-8">
+                            <div>December 2015 – March 2019</div>
+                            <div>EPC Laboratories (Pty) Ltd</div>
+                        </div>
+                        <div class="col-12 col-md-8">
+                            <h3 class="text-white-1 h5 font-family-playflair">Laboratory manager</h3>
+                            <p class="text-grey-3 fs-8">Comply and manage the ISO/IEC 17025 accreditation, including
+                                SANAS requirements, regulatory, technical and guidance documents.
+                                Maintain and control management, technical documents and records .
+                                Investigate and resolve non-conforming work. Conduct internal audits in
+                                the laboratory. Complete laboratory administration. Monitor stock
+                                level, order, receive and verify consumables and supplies. Arrange
+                                services (calibration and repairs). Manage safety and housekeeping of
+                                laboratory. Operate and verify equipment. Prepare media, sample login,
+                                conduct microbiological analyses and evaluate results. Authorise and
+                                issue the Certificate of Analysis (SANAS technical signatory). Manage
+                                method validations and proficiency testing. Train and manage staff.</p>
+                        </div>
+                    </div>
+
+                    <!--Job 2-->
+                    <div class="row px-2 py-3 timeline__marker">
+                        <div class="col-12 col-md-4 mb-3 mb-md-0 text-grey-3 fs-8">
+                            <div>January 2015 – November 2015</div>
+                            <div>Microchem Lab Services (Pty) Ltd</div>
+                        </div>
+                        <div class="col-12 col-md-8">
+                            <h3 class="text-white-1 h5 font-family-playflair">Team leader</h3>
+                            <p class="text-grey-3 fs-8">Validation of microbiological test methods to be used in the
+                                laboratory.Prepare internal and external proficiencies on microbiological test
+                                methods. Oversee that the laboratory verifications are completed.
+                                Receive stock and verify new batches of media.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!--Job 3-->
+                    <div class="row px-2 py-3 timeline__marker">
+                        <div class="col-12 col-md-4 mb-3 mb-md-0 text-grey-3 fs-8">
+                            <div>March 2012 – December 2014</div>
+                            <div>Microchem Lab Services (Pty) Ltd</div>
+                        </div>
+                        <div class="col-12 col-md-8">
+                            <h3 class="text-white-1 h5 font-family-playflair">Microbiologist</h3>
+                            <p class="text-grey-3 fs-8">Work in accordance to the ISO/IEC 17025:2005 quality
+                                management
+                                system. Media preparation, operate and verify laboratory equipment.
+                                Conduct standard microbiological analysis on food, cosmetics and water
+                                samples. Perform Real-time Polymerase Chain Reaction (PCR) and
+                                Tempo system on various food samples. Record and assess results
+                                obtained from the analysis. Work with the LIMS system. Assist in
+                                training and monitoring interns.</p>
+                        </div>
+                    </div>
+                </div>
+                <!--END Job timeline-->
+            </div>
+        </section>
+
+        <!--Education section-->
+        <section id="education" class="min-vh-100">
+            <div class="mx-auto main__section-inner main__section-inner--width-80">
+                <header>
+                    <h2 class="mb-7 font-family-playflair text-white-1 display-7">Education</h2>
+                </header>
+
+                <!--Education timeline-->
+                <div class="timeline">
+                    <!--Qualification 1-->
+                    <div class="row px-2 py-3 timeline__marker">
+                        <div class="col-12 col-md-4 mb-3 mb-md-0 text-grey-3 fs-8">
+                            <div>November 2020 - November 2021</div>
+                            <div>HyperionDev</div>
+                        </div>
+                        <div class="col-12 col-md-8">
+                            <h3 class="text-white-1 h5 font-family-playflair">Certificate Full Stack Web and
+                                Software Engineer</h3>
+                            <p class="text-grey-3 fs-8">HTML, CSS, SCSS, JavaScript, MongoDB, Express, React, Node,
+                                PHP, SQL, Java, Git</p>
+                        </div>
+                    </div>
+
+                    <!--Qualification 2-->
+                    <div class="row px-2 py-3 timeline__marker">
+                        <div class="col-12 col-md-4 mb-3 mb-md-0 text-grey-3 fs-8">
+                            <div>2009 – 2011</div>
+                            <div>Food Microbiology Research Group, University of Western Cape</div>
+                        </div>
+                        <div class="col-12 col-md-8">
+                            <h3 class="text-white-1 h5 font-family-playflair">MSc Biotechnology</h3>
+                            <p class="text-grey-3 fs-8">The use of Polymerase Chain Reaction – Denaturing Gradient
+                                Gel Electrophoresis to detect the survival of foodborne microorganisms after UV-C
+                                treatment (Cum Laude)
+                            </p>
+                        </div>
+                    </div>
+
+                    <!--Qualification 3-->
+                    <div class="row px-2 py-3 timeline__marker">
+                        <div class="col-12 col-md-4 mb-3 mb-md-0 text-grey-3 fs-8">
+                            <div>2008</div>
+                            <div>Institute of Wine Biotechnology, Stellenbosch University</div>
+                        </div>
+                        <div class="col-12 col-md-8">
+                            <h3 class="text-white-1 h5 font-family-playflair">BSc(Hons) Wine Biotechnology</h3>
+                            <p class="text-grey-3 fs-8">Wine Biotechnology</p>
+                        </div>
+                    </div>
+
+                    <!--Qualification 4-->
+                    <div class="row px-2 py-3 timeline__marker">
+                        <div class="col-12 col-md-4 mb-3 mb-md-0 text-grey-3 fs-8">
+                            <div>2005 - 2007</div>
+                            <div>University of Western Cape</div>
+                        </div>
+                        <div class="col-12 col-md-8">
+                            <h3 class="text-white-1 h5 font-family-playflair">BSc Biotechnology</h3>
+                            <p class="text-grey-3 fs-8">Biotechnology, Microbiology, Biochemistry</p>
+                        </div>
+                    </div>
+
+                    <!--Qualification 5-->
+                    <div class="row px-2 py-3 timeline__marker">
+                        <div class="col-12 col-md-4 mb-3 mb-md-0 text-grey-3 fs-8">
+                            <div>2000 - 2004</div>
+                            <div>Hottentots Holland High School</div>
+                        </div>
+                        <div class="col-12 col-md-8">
+                            <h3 class="text-white-1 h5 font-family-playflair">Grade 12</h3>
+                            <p class="text-grey-3 fs-8">English First Language HG, Afrikaans Second Language HG,
+                                Physical Science HG, Mathematics HG, Biology HG, Business Economics HG,
+                                History HG
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Contact section-->
+        <section id="contact" class="min-vh-100">
+            <div class="mx-auto main__section-inner main__section-inner--width-80">
+                <header>
+                    <h2 class="mb-7 font-family-playflair text-white-1 display-7">Contact me</h2>
+                </header>
+
+                <!--Contact email address-->
+                <div class="mb-5">
+                    <span><i class="bi bi-envelope text-grey-4 fs-5"></i><span class="ps-2 text-white-1">Email:<a
+                                href="malto:example@example.com"
+                                class="ps-2 text-white-1 text-decoration-none">example@example.com</a></span></span>
+                </div>
+
+                <!--Contact form-->
+                <form>
+                    <div class="row mb-3">
+                        <div class="col-12 col-md-6">
+                            <div class="form-floating mb-3">
+                                <input type="text" name="name" id="name" placeholder="Name"
+                                    class="form-control border-white-1 bg-transparent text-white-1">
+                                <label for="name" class="text-white-1">Name</label>
+                            </div>
+
+                            <div class="form-floating mb-3">
+                                <input type="email" name="email" id="email" placeholder="Email"
+                                    class="form-control border-white-1 bg-transparent text-white-1">
+                                <label for="email" class="text-white-1">Email</label>
+                            </div>
+
+                            <div class="form-floating mb-3 mb-md-0">
+                                <input type="text" name="subject" id="subject" placeholder="Subject"
+                                    class="form-control border-white-1 bg-transparent text-white-1">
+                                <label for="subject" class="text-white-1">Subject</label>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 h-auto">
+                            <div class="form-floating h-100">
+                                <textarea name="message" id="message" placeholder="Write message"
+                                    class="form-control h-100 border-white-1 bg-transparent text-white-1"></textarea>
+                                <label for="message" class="text-white-1">Write message</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <input type="submit" value="Submit" class="btn btn-outline-white-1 mb-3">
+                </form>
+                <!--END Contact form-->
+            </div>
+        </section>
+    </main>
+
+    <!--JavaScript-->
+    <script type="module" src="scripts/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,73 @@
+//This file will contain:
+//Customized colour, font-sizes, font-family, maps etc. 
+//Variable overrides
+
+
+/*COLOUR*/
+
+//Custom colours
+$white-1: #F2F2F2;              //Section headings
+$grey-1: #DEDEDE;               //Navigation separator
+$grey-2: #C3C3C3;               //Social link border
+$grey-3: #959598;               //Section paragraphs
+$grey-4: #75757B;               //Navigation icons
+$charcoal: #1E1E20;             //Navigation labels, background, social icons, subheading
+$pink: #AC3768;                 //Hover, navigation link state
+
+//Custom theme-colors
+$custom-theme-colors: (
+    "white-1": $white-1,
+    "grey-1": $grey-1,
+    "grey-2": $grey-2,
+    "grey-3": $grey-3,
+    "grey-4": $grey-4,
+    "charcoal": $charcoal,
+    "pink": $pink
+);
+
+$theme-colors: map-merge($theme-colors, $custom-theme-colors);
+
+
+/*FONT SIZES*/
+
+//Custom font-sizes
+$text-font-size: 1.125rem;          //Section paragraphs
+$title-font-size: 2.8125rem;        //Section titles
+
+$custom-font-sizes: (
+    7: $text-font-size,
+    8: $font-size-sm                //Bootstrap variable; Font-size: 0.875rem
+);
+
+//Custom diplay font-sizes
+$custom-display-font-sizes: (
+    7:  $title-font-size
+);
+
+$font-sizes: map-merge($font-sizes, $custom-font-sizes );
+$display-font-sizes: map-merge($display-font-sizes, $custom-display-font-sizes);
+
+
+/*FONT FAMILY*/
+
+//Custom font-family
+$font-family-roboto: 'Roboto', sans-serif;
+$font-family-playfair: 'Playfair Display', serif;
+
+//Base font-family override 
+$font-family-base: $font-family-roboto;
+
+//Custom class for playflair font-family
+.font-family-playflair {
+    font-family: $font-family-playfair;
+}
+
+
+/*SPACERS (margins and padding)*/
+
+//Custom spacers
+$custom-spacers: (
+    7: $spacer * 4.375
+);
+
+$spacers: map-merge($spacers, $custom-spacers )

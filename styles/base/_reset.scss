@@ -1,0 +1,20 @@
+//Reset certain components
+
+html {
+    overflow-y: scroll;
+}
+
+//Customize scrollbar
+html::-webkit-scrollbar {
+    width: 0.6rem;
+}
+
+html::-webkit-scrollbar-track {
+    background: #1E1E20;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: #1E1E20;
+    box-shadow: 0px 0px 3px 1px white inset;
+    border-radius: 5px;
+}

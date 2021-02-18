@@ -1,0 +1,74 @@
+//Main component
+
+.main {
+
+    @include media-breakpoint-up(lg) {
+        padding-left: 50.69%;
+    }
+}
+
+
+.main__section-inner--width-75 {
+    padding: 4.38575rem 0 1.5rem;
+    width: 75%;
+
+    @include media-breakpoint-up(md) {
+        padding-top: 9.5rem;
+    }
+
+}
+
+.main__section-inner--width-80 {
+    padding: 4.38575rem 0 1.5rem;
+    width: 80%;
+}
+
+//Timeline component
+.timeline {
+
+    @include media-breakpoint-up(md) {
+        position: relative;
+    }
+}
+
+.timeline::after {
+
+    @include media-breakpoint-up(md) {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 33%;
+        height: 100%;
+        width: 1px;
+
+        background-color: $white;
+    }
+}
+
+.timeline__marker {
+    position: relative;
+}
+
+
+.timeline__marker::after {
+    content: "";
+    position: absolute;
+    top: calc(100% - 0.5rem);
+    left: 50%;
+    transform: translateX(-50%);
+    height: 2px;
+    width: 5rem;
+
+    z-index: 1;
+    background-color: $pink;
+
+    @include media-breakpoint-up(md) {
+        top: 1.25rem;
+        left: 32.8%;
+        transform: none;
+        height: 0.7rem;
+        width: 0.7rem;
+
+        border-radius: 50%;
+    }
+}

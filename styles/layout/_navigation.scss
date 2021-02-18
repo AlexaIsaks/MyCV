@@ -1,0 +1,42 @@
+//Navigation component
+
+.navbar {
+
+    @include media-breakpoint-up(lg) {
+        height: 100%;
+        width: 6.25rem;
+
+        border-right: 1px solid $grey-1;
+    }
+}
+
+.navbar__nav-item {
+
+    @include media-breakpoint-up(lg) {
+        height: 6.25rem;
+    }
+}
+
+.navbar__nav-link:hover .navbar__icon {
+    color: $pink;
+}
+
+.navbar__icon {
+    color: $grey-4;
+
+    @include media-breakpoint-up(lg) {
+        font-size: $h4-font-size;
+    }
+}
+
+.navbar__title {
+
+    @include media-breakpoint-up(lg) {
+        font-size: 0.875rem;
+    }
+}
+
+//Navigation state. Active link
+.is-active-link {
+    color: $pink;
+}

@@ -1,0 +1,69 @@
+//Header component
+
+.header {
+    position: fixed;
+    left: -33.33rem; //Mobile menu
+    width: 100%;
+
+    z-index: 2;
+    transition: left 0.5s ease-in-out;
+
+    @include media-breakpoint-up(md) {
+        width: 45%;
+    }
+
+    @include media-breakpoint-up(lg) {
+        left: 0;
+        width: 50.69%;
+    }
+}
+
+.header__hamburger {
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+}
+
+.header__inner-container {
+    padding: 4.38575rem 1.5rem 1.5rem;
+    width: 100%;
+
+    @include media-breakpoint-up(lg) {
+        margin-left: 6.25rem;
+        padding-top: 9.5rem;
+        width: calc(100% - 6.25rem);
+    }
+}
+
+.header__image-container {
+    height: auto;
+    width: 58.095%;
+}
+
+.header__navbar {
+
+    @include media-breakpoint-up(lg) {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}
+
+.header__social-link {
+    height: 3.5rem;
+    width: 3.5rem;
+
+    color: $charcoal;
+
+    &:hover {
+        color: $pink;
+    }
+
+}
+
+//Menu toggle: When menu is opened.
+.is-open {
+    left: 0;
+
+    transition: left 0.5s ease-in-out;
+}

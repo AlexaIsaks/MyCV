@@ -1,0 +1,64 @@
+//Only Bootstrap layout and components used in this project are imported
+//Other Bootstrap layout and components are commented out and can be used, if needed, at a later stage.
+//Custom .scss files are indicated on the sides and positioned correctly to ensure proper function
+//Project/custom .scss files follow BEM methodology and SASS 7-1 architecture 
+
+// Configuration
+
+@import "./base/reset";                                             //Custom reset
+@import "./vendors/node_modules/bootstrap/scss/functions";
+@import "./vendors/node_modules/bootstrap/scss/variables";
+@import "./helpers/variables";                                     //Custom variables
+@import "./vendors/node_modules/bootstrap/scss/mixins";
+@import "./vendors/node_modules/bootstrap/scss/utilities";
+
+//Pages
+
+@import "./pages/home";                                             //Custom pages
+
+
+// Layout & components
+
+@import "./vendors/node_modules/bootstrap/scss/root";
+@import "./vendors/node_modules/bootstrap/scss/reboot";
+@import "./vendors/node_modules/bootstrap/scss/type";
+@import "./vendors/node_modules/bootstrap/scss/images";
+@import "./vendors/node_modules/bootstrap/scss/containers";
+@import "./vendors/node_modules/bootstrap/scss/grid";
+//@import "tables";
+@import "./vendors/node_modules/bootstrap/scss/forms";
+@import "./vendors/node_modules/bootstrap/scss/buttons";
+@import "./vendors/node_modules/bootstrap/scss/transitions";
+//@import "dropdown";
+@import "./vendors/node_modules/bootstrap/scss/button-group";
+@import "./vendors/node_modules/bootstrap/scss/nav";
+@import "./vendors/node_modules/bootstrap/scss/navbar";
+//@import "card";
+//@import "accordion";
+//@import "breadcrumb";
+//@import "pagination";
+//@import "badge";
+//@import "alert";
+//@import "progress";
+//@import "list-group";
+//@import "close";
+//@import "toasts";
+//@import "modal";
+//@import "tooltip";
+//@import "popover";
+//@import "carousel";
+//@import "spinners";
+
+
+@import "./layout/header";                                  //Custom layout
+@import "./layout/navigation";
+
+@import "./components/hamburger";                           //Custom components
+
+// Helpers
+
+@import "./vendors/node_modules/bootstrap/scss/helpers";
+
+// Utilities
+
+@import "./vendors/node_modules/bootstrap/scss/utilities/api";
