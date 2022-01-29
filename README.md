@@ -27,6 +27,15 @@ The purpose of the project is to create an online CV.
 * Open the `index.html` file.
 * If you are using Visual Studio Code, view the project using **Live Server**.
 
+</br>
+<p align="center"><img alt="Home page desktop" src="./readme-images/home-desktop.png" width="600"></p>
+</br>
+</br>
+<p align="center"><img alt="Home page mobile" src="./readme-images/home-mobile.png" width="200"></p>
+</br>
+</br>
+<p align="center"><img alt="Menu mobile" src="./readme-images/menu-mobile.png" width="200"></p>
+
 ## Acknowledgments
 
 **HyperionDev**
